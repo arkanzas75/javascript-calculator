@@ -1,0 +1,71 @@
+.open-calc-button-div {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.open-calc-button {
+    text-align: center;
+    background-color: rgb(21, 23, 196);
+    color: yellow;
+    border-radius: 7%;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.calc {
+    text-align: center;
+    margin-top: 80px;
+    display: none;
+}
+
+.calc-border {
+    border-style: solid;
+    width: 260px;
+    display: inline-block;
+    padding: 25px;
+    position: relative;
+}
+
+#input {
+    text-align: right;
+    width: 240px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.line button {
+    font-size: 20px;
+    width: 60px;
+    padding: 10px;
+}
+
+.clear {
+    background-color: rgb(255, 28, 28);
+}
+
+.result {
+    background-color: rgb(88, 214, 88);
+}
+
+.close-app {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(114, 0, 0);
+    position: absolute;
+    right: -20px;
+    top: -15px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+}
+
+.close-app:hover {
+    background-color: red;
+    cursor: pointer;
+    font-size: 38px;
+    width: 50px;
+    height: 50px;
+    right: -27px;
+    top: -23px;
+}
